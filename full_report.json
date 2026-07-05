@@ -1,0 +1,36 @@
+{
+    "best_model": "efficientnet_b0",
+    "best_validation_accuracy": 28.0,
+    "best_test_accuracy": 28.67,
+    "training_time_seconds": 1178.0,
+    "all_models": {
+        "resnet18": {
+            "validation_accuracy": 8.67,
+            "training_time_seconds": 1468.0
+        },
+        "resnet50": {
+            "validation_accuracy": 4.67,
+            "training_time_seconds": 3830.0
+        },
+        "densenet121": {
+            "validation_accuracy": 13.33,
+            "training_time_seconds": 2993.0
+        },
+        "efficientnet_b0": {
+            "validation_accuracy": 28.0,
+            "training_time_seconds": 1178.0
+        },
+        "mobilenet_v2": {
+            "validation_accuracy": 14.0,
+            "training_time_seconds": 785.0
+        }
+    },
+    "test_metrics": {
+        "accuracy": 0.2867,
+        "precision": 0.2185,
+        "recall": 0.2756,
+        "f1_score": 0.2261
+    },
+    "fastest_model": "mobilenet_v2",
+    "fastest_training_time_seconds": 785.0
+}

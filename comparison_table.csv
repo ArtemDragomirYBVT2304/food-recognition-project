@@ -1,0 +1,6 @@
+Architecture,Validation Accuracy (%),Training Time (s),Test Accuracy (%)
+efficientnet_b0,28.0,1178.0,28.7
+mobilenet_v2,14.0,785.0,-
+densenet121,13.33,2993.0,-
+resnet18,8.67,1468.0,-
+resnet50,4.67,3830.0,-
